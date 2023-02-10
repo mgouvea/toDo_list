@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-inline: auto;
+  height: 200px;
+  background: var(--gray-700);
+  position: relative;
+  cursor: default;
+}
+#rockeatIcon {
+  margin-right: 0.75rem;
+}
+.textHeader {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+#textFirst {
+  color: var(--blue);
+}
+#textSecond {
+  color: var(--purpleDark);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: min(100% - 10px, 46rem);
+  height: min(100% - 10.9rem);
+  margin-inline: auto;
+  position: absolute;
+  top: 10.8rem;
+  left: 0;
+  right: 0;
+}
+
+.createTaskContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputCreateTask {
+  width: 39.8rem;
+  padding-left: 1rem;
+  color: var(--gray-300);
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+}
+.buttonCreateTask {
+  width: 5.7rem;
+  background: var(--blueDark);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.inputCreateTask,
+.buttonCreateTask {
+  height: 3.4rem;
+  border-radius: 8px;
+}
+
+.statusContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  height: 100%;
+}
+
+.taskStatus {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.createTaskStatus {
+  display: flex;
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: default;
+}
+
+.number {
+  text-align: center;
+  margin-left: 0.5rem;
+  width: 25px;
+  height: 19px;
+  border-radius: 10px;
+  color: var(--gray-200);
+  background: var(--gray-400);
+}
+
+.doneTaskStatus {
+  display: flex;
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: 700;
+}

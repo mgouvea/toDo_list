@@ -1,0 +1,20 @@
+.containerBlank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 15.25rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  cursor: default;
+}
+.imgIcon {
+  margin-bottom: 1rem;
+}
+
+.textBlank {
+  font-weight: 700;
+}
+.subTextBlank {
+  font-weight: 400;
+}
