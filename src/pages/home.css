@@ -41,6 +41,16 @@
   justify-content: space-between;
 }
 
+.buttonCreateContent {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 13px;
+}
+
+.plusIcon {
+  margin-top: 2.5px;
+}
+
 .inputCreateTask {
   width: 39.8rem;
   padding-left: 1rem;
@@ -89,7 +99,7 @@
   text-align: center;
   margin-left: 0.5rem;
   width: 25px;
-  height: 19px;
+  height: 20px;
   border-radius: 10px;
   color: var(--gray-200);
   background: var(--gray-400);

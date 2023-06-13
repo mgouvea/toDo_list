@@ -1,0 +1,69 @@
+.field {
+  border: 1px solid #333333;
+  height: 72px;
+  border-radius: 8px;
+  background-color: #262626;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-inline: 21px;
+  margin: 0 0 12px 0;
+}
+
+.fieldContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unCheck {
+  border: 2px solid #4ea8de;
+  border-radius: 10rem;
+
+  width: 25px;
+  max-width: 25px;
+  height: 25px;
+  max-height: 25px;
+
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.check {
+  border: 2px solid #686ac1;
+  border-radius: 10rem;
+  background-color: #686ac1;
+
+  width: 25px;
+  max-width: 25px;
+  height: 25px;
+  max-height: 25px;
+
+  margin-right: 10px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.taskFinished {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.taskUnfinished {
+  color: #f2f2f2;
+}
+
+.trashIcon {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
